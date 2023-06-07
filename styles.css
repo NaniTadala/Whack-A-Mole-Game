@@ -38,10 +38,15 @@ body {
 }
 
 .center-text {
-    color: #4ECCA3;
     font-family: 'Lobster', cursive;
     font-size: 4rem;
     text-shadow: 5px 5px 4px black;
+}
+
+.center-text-responsive {
+    display: none;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
 }
 
 .main-container {
@@ -83,6 +88,9 @@ body {
     }
     .center-text {
         display: none;
+    }
+    .center-text-responsive {
+        display: block;
     }
     .container {
         width: 360px;
